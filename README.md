@@ -8,7 +8,7 @@ Los integrantes que conforman este proyecto son:
 - Samuel Aponte
 - Alex Granados
 - Lenis Rios
-- David Correa 
+- Jesus David Correa 
 
 <br>
 
