@@ -51,3 +51,5 @@ La calidad, garantía e innovación de nuestros productos, serán nuestra carta 
 - Estos 5 sitios fueron elegidos porque cumplen con los productos y servicios que queremos ofrecer, dentro del nicho de mercado objetivo ellos cumplen con la estética y las funcionalidades a las que nxtgen quiere llegar, posicionándose en el mercado de una forma innovadora
 
 ------------
+
+### Link de Trello: https://trello.com/invite/b/UOSg380a/ATTI4fab9693361ca9b99c289f4ca1ab7d001DCFE619/nxtgen
