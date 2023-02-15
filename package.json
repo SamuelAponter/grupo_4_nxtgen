@@ -1,0 +1,26 @@
+{
+  "name": "grupo_4_nxtgen",
+  "version": "1.0.0",
+  "description": "<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelAponter/grupo_4_nxtgen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelAponter/grupo_4_nxtgen/issues"
+  },
+  "homepage": "https://github.com/SamuelAponter/grupo_4_nxtgen#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
