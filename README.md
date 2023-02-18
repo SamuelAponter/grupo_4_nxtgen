@@ -53,3 +53,5 @@ La calidad, garantía e innovación de nuestros productos, serán nuestra carta 
 ------------
 
 ### Link de Trello: https://trello.com/invite/b/UOSg380a/ATTI4fab9693361ca9b99c289f4ca1ab7d001DCFE619/nxtgen
+
+### Link de Figma: https://www.figma.com/file/vk8edPgSNkBmCJaQibzN5G/Wireframe-nxtGen?node-id=63%3A3&t=cir2AJYJdrDPbOj9-1
