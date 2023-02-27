@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.nav__bar{
+    background-color:#333333 ;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav__bar img{
+    width: 50%;
+    object-fit: contain;
+}
+.container__cart{
+    display: flex;
+}
+.container__cart h1{
+    margin: 0 auto;
+}
+.container__cart i{
+    /* margin-right: 60px; */
+    font-size: 1.3rem;
+    margin-top: 5px;
 }
