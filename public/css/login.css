@@ -102,3 +102,19 @@ h4{
     margin: 16px 0;
     font-size: 1.6rem;
 }
+
+@media(max-width:620px){
+    main{
+
+        background-image: none;
+        background-color: #000000;
+    }
+    .form-login-title{
+        background-color:#000000;
+        border: solid 2px #D9D9D9;
+    }
+
+    h4{
+        color:#ffff
+    }
+}
