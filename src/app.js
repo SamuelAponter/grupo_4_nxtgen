@@ -15,5 +15,5 @@ app.listen(3000,() => {
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/login.html'))
+    res.sendFile(path.resolve(__dirname, './src/views/login.html'))
 })
