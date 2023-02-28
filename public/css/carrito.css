@@ -64,3 +64,38 @@
     margin-left: 10px;
     font-size: 2.2rem;
 }
+.container__cart-payment{
+    position: absolute;
+    top: 220px;
+    right: 0;
+    width: 50%;
+    max-width: 500px;
+}
+.container__cart-payment h3{
+    text-align: center;
+    width: 200px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.container__cart-payment-images{
+    width: 100%;
+    display: flex;
+
+}
+.container__cart-payment-images img{
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 53px;
+    max-height: 200px;
+    transition: transform 0.5s;
+}
+
+.container__cart-payment-images img:hover{
+    transform: scale(1.6);
+}
+.container__cart-payment h3{
+    font-size: 2rem;
+
+}
