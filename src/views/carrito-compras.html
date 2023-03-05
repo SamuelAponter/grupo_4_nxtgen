@@ -16,7 +16,30 @@
 
 <body>
     <header class="nav__bar">
-        <img src="./images/Logo nxtGen.jpg " alt="logo nxtgen">
+        <div class="nav__bar-image">
+            <img src="./images/Logo nxtGen.jpg " alt="logo nxtgen">
+        </div>
+        <div class="nav__bar-items">
+            <ul>
+                <li><a href="#">Computadores</a></li>
+                <li><a href="#">Celulares</a></li>
+                <li><a href="#">Tablets & iPad</a></li>
+                <li><a href="#">Monitores</a></li>
+            </ul>
+        </div>
+        <div class="nav__bar-search">
+            <form action="">
+                <label for="search">
+                    <input type="search" placeholder="Buscar productos..">
+                    <button type="submit"><i class="fa-solid fa-search"></i></button>
+                </label>
+            </form>
+        </div>  
+
+        <div class="nav__bar-icons">
+            <i class="fa-solid fa-cart-plus"></i>
+            <i class="fa-solid fa-user" id ="profile"></i>
+        </div>
     </header>
     <main>
         <section class="container__cart">
