@@ -34,11 +34,11 @@
                     <button type="submit"><i class="fa-solid fa-search"></i></button>
                 </label>
             </form>
-        </div>  
+        </div>
 
         <div class="nav__bar-icons">
             <i class="fa-solid fa-cart-plus"></i>
-            <i class="fa-solid fa-user" id ="profile"></i>
+            <i class="fa-solid fa-user" id="profile"></i>
         </div>
     </header>
     <main>
@@ -48,27 +48,38 @@
                 <h1>Carrito de Compras</h1>
             </div>
             <div class="container__cart-card">
-                <img src="./images/S23 carrito.jpg" alt="Product S23">
+                <img src="./images/S23 carrito.jpg" alt="Product S23" class="product_card">
                 <div class="container__cart-text">
                     <h3>Samsung Galaxy S23 6,1 <br> “5G 256GB Verde</h3>
                     <p>Subtotal: <span>4’500.900</span></p>
                     <p>Total: <span>4’599.900</span></p>
                 </div>
+                <div class="container__cart-disponibility">
+                    <div class="container__cart-disponibility-button">
+                        <button type="button" class="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                        <p>1</p>
+                        <button type="button" class="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="container__counter">
+                        <p id="counter">87 disponibles</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="container__cart-payment">
+                        <h3>Métodos de pago:</h3>
+                        <div class="container__cart-payment-images">
+                            <img src="./images/visa-logo.jpg" alt="visa logo" class="visa">
+                            <img src="./images/pse.jpg" alt="pse" class="payment__images">
+                            <img src="./images/mastercard.jpg" alt="mastercard" class="payment__images">>
+                        </div>
             </div>
-            <div class="container__cart-payment">
-                <h3>Métodos de pago:</h3>
-                <div class="container__cart-payment-images">
-                    <img src="./images/visa-logo.jpg" alt="visa logo" class="visa">
-                    <img src="./images/pse.jpg" alt="pse">
-                    <img src="./images/mastercard.jpg" alt="mastercard">
                 </div>
             </div>
-        <div class="eliminate__items">
-            <p class="delete"><i class="fa-solid fa-trash-can"></i>Eliminar</p>
-            <span>//</span>
-            <p class="buy">Ir a comprar<i class="fa-solid fa-cart-shopping"></i></p>
-        </div>
-    </section>
+            <div class="eliminate__items">
+                <p class="delete"><i class="fa-solid fa-trash-can"></i>Eliminar</p>
+                <span>//</span>
+                <p class="buy">Ir a comprar<i class="fa-solid fa-cart-shopping"></i></p>
+            </div>
+        </section>
         <section class="suggestions__container">
             <div class="suggestions__container-title">
                 <h3>Sugerencias...</h3>
@@ -77,24 +88,45 @@
                 <div class="suggestions__products-card">
                     <img src="./images/Producto detalle.jpg" alt="product">
                     <div class="suggestions__products-info">
-                        <h3>Motorola G80 128gb plata</h3>   
+                        <h3>Motorola G80 128gb plata</h3>
                         <p>$ 880.000</p>
                         <div class="add-to-cart">
                             <i class="fa-solid fa-cart-shopping"><a href="/">Añadir al carrito</i></a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="suggestions__products-card">
                     <img src="./images/Producto Carrito.jpg" alt="product">
                     <div class="suggestions__products-info">
-                    <h3>iPhone 11 128GB</h3>
-                    <p>$ 2'450.000</p>
-                    <div class="add-to-cart">
-                        <i class="fa-solid fa-cart-shopping"><a href="/">Añadir al carrito</i></a>
+                        <h3>iPhone 11 128GB</h3>
+                        <p>$ 2'450.000</p>
+                        <div class="add-to-cart">
+                            <i class="fa-solid fa-cart-shopping"><a href="/">Añadir al carrito</i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="suggestions__products-card">
+                    <img src="./images/Producto detalle.jpg" alt="product">
+                    <div class="suggestions__products-info">
+                        <h3>Motorola G80 128gb plata</h3>
+                        <p>$ 880.000</p>
+                        <div class="add-to-cart">
+                            <i class="fa-solid fa-cart-shopping"><a href="/">Añadir al carrito</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suggestions__products-card">
+                    <img src="./images/Producto Carrito.jpg" alt="product">
+                    <div class="suggestions__products-info">
+                        <h3>iPhone 11 128GB</h3>
+                        <p>$ 2'450.000</p>
+                        <div class="add-to-cart">
+                            <i class="fa-solid fa-cart-shopping"><a href="/">Añadir al carrito</i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -103,10 +135,11 @@
             <ul>
                 <li><i class="fa-solid fa-bars"></i></li>
                 <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                <li><i class="fa-solid fa-user" id ="profile"></i></li>
+                <li><i class="fa-solid fa-user" id="profile"></i></li>
                 <li><i class="fa-solid fa-cart-plus"></i></li>
             </ul>
         </nav>
     </div>
 </body>
+
 </html>
