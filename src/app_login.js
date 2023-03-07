@@ -15,7 +15,7 @@ app.listen(3000,() => {
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/registro.html'))
+    res.sendFile(path.resolve(__dirname, './views/login.html'))
 })
 /* app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/formulario.html'))
