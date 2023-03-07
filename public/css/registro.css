@@ -110,3 +110,11 @@ main{
     margin: 16px 0;
     font-size: 1.6rem;
 }
+@media(max-width:620px){
+
+    main{
+        background-image: none;
+        background-color: #000000;
+        
+    } 
+    }
