@@ -65,7 +65,7 @@ main{
     align-items:center;
     flex-direction:column;
 }
-.controls {
+.form-inputs .controls {
     width: 50%;
     background-color: transparent;
     padding: 10px;
@@ -79,10 +79,10 @@ main{
 }
 
 
-.enlace{
+.form-inputs .enlace{
     text-align: center;
     font-size: 2rem;
-    color:rgb(11, 11, 11);
+    color:rgb(156, 18, 18);
     text-decoration: none;
 
 }
@@ -108,6 +108,7 @@ a{
     text-decoration: none;
 }
 
+
 @media(max-width:620px){
     main{
 
@@ -121,5 +122,8 @@ a{
 
     .form-login-card h4{
         color: #ffff;
+    }
+    .controls  {
+        color:#ffff
     }
 }
