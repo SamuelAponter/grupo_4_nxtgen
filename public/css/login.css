@@ -65,7 +65,7 @@ main{
     align-items:center;
     flex-direction:column;
 }
-.form-inputs .controls {
+.controls {
     width: 50%;
     background-color: transparent;
     padding: 10px;
@@ -79,10 +79,10 @@ main{
 }
 
 
-.form-inputs .enlace{
+.registrarme{
     text-align: center;
     font-size: 2rem;
-    color:rgb(156, 18, 18);
+    color:rgb(0, 0, 0);
     text-decoration: none;
 
 }
@@ -125,5 +125,8 @@ a{
     }
     .controls  {
         color:#ffff
+    }
+    .registrarme{
+        color:rgb(255, 255, 255);
     }
 }
