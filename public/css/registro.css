@@ -116,5 +116,12 @@ main{
         background-image: none;
         background-color: #000000;
         
-    } 
     }
+    .form-inputs ::placeholder{
+        color: #ffffff;
+    }
+    .terms{
+        color:#ffffff
+    }
+    }
+    /*Agregar media queri para dispositivos/*
