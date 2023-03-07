@@ -61,6 +61,7 @@
 
 .banner img{
     width: 99%;
+    padding-right: 150px;
 }
 
 h1{
@@ -166,3 +167,161 @@ footer p {
     color: #DE693D;
 }
 
+@media (min-width: 900px){
+
+    .main-header-top-bar img{
+        bottom: 16px;
+        right: 350px;
+        display: flex;
+    
+    }
+
+    .main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+    .main-navbar-items li{
+        display: inline-block;
+        position: relative;
+        bottom: 60px;
+        margin: 5px;
+        right: 50px;
+    }
+    .main-navbar a{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-header-search input {
+        width: 130%;
+        height: 25px;
+        left: 350px;
+        bottom: 90px;
+        display: inline-block;
+        outline: none;
+    }
+
+    .banner img{
+        padding-right: 300px;
+
+    }
+
+    .barra-navegacion{
+        display: none;
+    }
+
+    .glass i{
+        display: flex;
+        position: absolute;
+    }
+    
+
+    .buy i{
+    position: relative;
+    left: 150px;
+    bottom: 110px;
+    font-size: 1.2rem;
+    color: #DE693D;
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.user i{
+    position: relative;
+    left: 185px;
+    bottom: 130px;
+    font-size: 1.2rem;
+    color: #DE693D;
+}
+
+h1{
+    bottom: 40px;
+}
+
+section .items{
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    bottom: 50px;
+}
+
+.items{
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(0deg, rgba(246,246,251,1) 24%, rgba(255,255,255,1) 34%, rgba(114,114,114,1) 100%);
+        
+}
+
+.items img{
+    width: 40%;
+    display: inline-block;
+    position: relative;
+}
+
+.asus img{
+    width: 400px;
+    height: 400px;
+}
+
+.img-rog img{
+    width: 400px;   
+    height: 400px;
+    bottom: 68px;
+}
+
+.rog p {
+    position: relative;
+    margin-left: 450px;
+    top: 180px;
+    display: table-caption;
+}
+
+.items2 h3{
+    width: 45%;
+    margin: 20px 350px;
+}
+
+.imagenes img{
+    margin: 0, auto;
+    display: flex;
+    justify-items: center;
+}
+
+section .items2{
+    margin: 0 50px;
+    bottom: 50px;
+}
+
+.items2{
+    display: inline-block;
+    position: relative;
+}
+
+.items2 img{
+    width: 480px;
+    height: 420px;
+}
+
+.main-navbar-items:hover .computadores{   
+    color: #DE693D;
+    font-size: 1.8rem;
+}
+
+.main-navbar-items .computadores{
+    transition: all 450ms;
+
+}
+.main-navbar-items:hover .celulares{   
+    color: #DE693D;
+    font-size: 1.8rem;
+}
+
+.main-navbar-items .celulares{
+    transition: all 450ms;
+
+}
+
+}
