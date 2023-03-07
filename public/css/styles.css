@@ -180,7 +180,13 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+    
+        /* position: fixed; */
+        /* bottom: 0;
+        width: 100%;
+        background-color: #000000;
+        height: 40px; */
+    } 
 
     .main-navbar-items li{
         display: inline-block;
@@ -281,13 +287,18 @@ section .items{
 
 .items2 h3{
     width: 45%;
-    margin: 20px 350px;
+    margin: 20px 380px;
+}
+
+.imagenes{
+    display: flex;
+    margin-left: 218px;
+    text-align: center;
 }
 
 .imagenes img{
     margin: 0, auto;
-    display: flex;
-    justify-items: center;
+    
 }
 
 section .items2{
@@ -301,8 +312,8 @@ section .items2{
 }
 
 .items2 img{
-    width: 480px;
-    height: 420px;
+    width: 400px;
+    height: 500px;
 }
 
 .main-navbar-items:hover .computadores{   
