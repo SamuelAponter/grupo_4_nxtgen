@@ -74,10 +74,13 @@ main{
     border: none;
     border-bottom: 2px solid #FF7A00;
     font-family: "calibri";
-    color:#000000;
     font-size: 2rem;
 }
 
+.form-inputs ::placeholder{
+    color:#000000;
+
+}
 
 .registrarme{
     text-align: center;
@@ -104,14 +107,13 @@ main{
 a{
     text-align: center;
     font-size: 2rem;
-    color:rgb(11, 11, 11);
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 
 
 @media(max-width:620px){
     main{
-
         background-image: none;
         background-color: #000000;
     }
@@ -123,8 +125,9 @@ a{
     .form-login-card h4{
         color: #ffff;
     }
-    .controls  {
-        color:#ffff
+    .form-inputs ::placeholder{
+        color:#ffffff;
+    
     }
     .registrarme{
         color:rgb(255, 255, 255);
