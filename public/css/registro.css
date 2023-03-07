@@ -23,7 +23,7 @@ main{
     padding: 30px;
     border-radius: 4px;
     font-family: "calibri";
-    color: rgb(37, 37, 37);
+    color: (#000000);
     box-shadow: 7px 13px 37px #000;
 
 }
@@ -68,6 +68,9 @@ main{
     flex-direction: column;
 
 }
+.form-inputs ::placeholder{
+    color: #000000;
+}
 .controls {
     width: 50%;
     background-color: transparent;
@@ -77,7 +80,6 @@ main{
     border: none;
     border-bottom: 2px solid #FF7A00;
     font-family: "calibri";
-    color:#000000;
     font-size: 2rem;
 }
 .termsCondition{
@@ -90,12 +92,12 @@ main{
 .enlace{
     text-align: center;
     font-size: 2rem;
-    color:rgb(11, 11, 11);
+    color:rgb(#000000);
     text-decoration: none;
 
 }
 .form-register a:hover {
-    color:rgb(39, 38, 38);
+    color:rgb(#000000);
     text-decoration: underline;
 }
 
@@ -104,9 +106,23 @@ main{
     background-color: #FF7A00;
     border: none;
     padding: 12px;
-    color: rgb(11, 11, 11);
+    color: rgb(#000000);
     margin: 16px 0;
     font-size: 1.6rem;
 }
 
+@media(max-width:620px){
+
+main{
+    background-image: none;
+    background-color: #000000;
+    
+}
+.form-inputs ::placeholder{
+    color: #ffffff;
+}
+.terms{
+    color:#ffffff
+}
+}
 /*Agregar media queri para dispositivos/*
