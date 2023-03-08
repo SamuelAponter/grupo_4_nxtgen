@@ -11,6 +11,7 @@ main{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,3 +111,18 @@ main{
     margin: 16px 0;
     font-size: 1.6rem;
 }
+@media(max-width:620px){
+
+    main{
+        background-image: none;
+        background-color: #000000;
+        
+    }
+    .form-inputs ::placeholder{
+        color: #ffffff;
+    }
+    .terms{
+        color:#ffffff
+    }
+    }
+    /*Agregar media queri para dispositivos/*
